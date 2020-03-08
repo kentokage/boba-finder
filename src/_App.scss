@@ -5,168 +5,171 @@
 } */
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+	height: 40vmin;
+	pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
 }
 
 .App {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .App-link {
-  color: #61dafb;
+	color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+	from {
+		transform: rotate(0deg);
+	}
 
-  to {
-    transform: rotate(360deg);
-  }
+	to {
+		transform: rotate(360deg);
+	}
 }
 
 .MapAutoComplete {
-  display: flex;
-  flex-direction: horizontal;
-  width: 600px;
-  margin: 0px 0.5rem;
+	display: flex;
+	flex-direction: horizontal;
+	width: 600px;
+	margin: 0px 0.5rem;
 
-  @media (max-width: 640px) {
-    width: 200px;
-  }
+	@media (max-width: 640px) {
+		width: 200px;
+	}
 
-  .ant-select-auto-complete {
-    display: flex;
-    flex-grow: 1;
-  }
+	.ant-select-auto-complete {
+		display: flex;
+		flex-grow: 1;
+	}
 }
 
 .PlaceCard {
-  color: black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 20px;
-  padding: 10px;
-  width: 300px;
-  font-size: 1em;
-  color: $primary-text;
-  border: 1px solid $border-color;
-  border-radius: .5rem;
-  cursor: pointer;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px;
+	padding: 10px;
+	width: 300px;
+	font-size: 1em;
+	color: $primary-text;
+	border: 1px solid $border-color;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	transition: background-color 0.5s ease;
 
-  .header {
-    font-size: 1.4rem;
-    text-align: center;
-    margin-bottom: .5rem;
+	&:hover {
+		background-color: $hover;
+	}
+	.header {
+		font-size: 1.4rem;
+		text-align: center;
+		margin-bottom: 0.5rem;
 
-    .title {
-      padding: 0px 5px;
-    }
-  }
+		.title {
+			padding: 0px 5px;
+		}
+	}
 
-  img {
-    height: 200px;
-    width: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-  }
+	img {
+		height: 200px;
+		width: 200px;
+		object-fit: cover;
+		border-radius: 50%;
+	}
 
-  .details {
-    margin: 10px;
-    display: flex;
-    align-self: stretch;
-    flex-direction: column;
-    align-items: center;
+	.details {
+		margin: 10px;
+		display: flex;
+		align-self: stretch;
+		flex-direction: column;
+		align-items: center;
 
-    .sub-header {
-      font-size: 1.2rem;
-    }
+		.sub-header {
+			font-size: 1.2rem;
+		}
 
-    .center {
-      text-align: center;
-    }
+		.center {
+			text-align: center;
+		}
 
-    .multi-detail {
-      display: flex;
-      flex-direction: row;
-    }
+		.multi-detail {
+			display: flex;
+			flex-direction: row;
+		}
 
-    .footer {
+		.footer {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
 
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-
-      * {
-        padding: 0em .1rem;
-      }
-    }
-  }
+			* {
+				padding: 0em 0.1rem;
+			}
+		}
+	}
 }
 
 .MapMarker {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .Loading {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .GoogleMapReact {
-  height: 600px;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	height: 600px;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 
-  @media (max-width: 640px) {
-    height: 400px;
-  }
+	@media (max-width: 640px) {
+		height: 400px;
+	}
 
-  .search {
-    display: flex;
-    flex-direction: row;
-    padding: .5rem 0rem;
-  }
+	.search {
+		display: flex;
+		flex-direction: row;
+		padding: 0.5rem 0rem;
+	}
 
-  button {}
+	button {
+	}
 }
 
 .MapContainer {
-  .results {
-    padding-top: 20px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+	.results {
+		padding-top: 20px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
 }
 
 .icon {
-  font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 
 .icon-large {
-  font-size: 3rem;
-  color: $link !important;
+	font-size: 3rem;
+	color: $link !important;
 }
