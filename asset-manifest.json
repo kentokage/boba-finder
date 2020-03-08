@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/boba-finder/static/css/main.fc90685c.chunk.css",
-    "main.js": "/boba-finder/static/js/main.7aeb01a9.chunk.js",
-    "main.js.map": "/boba-finder/static/js/main.7aeb01a9.chunk.js.map",
+    "main.js": "/boba-finder/static/js/main.928f240c.chunk.js",
+    "main.js.map": "/boba-finder/static/js/main.928f240c.chunk.js.map",
     "runtime-main.js": "/boba-finder/static/js/runtime-main.18eed34d.js",
     "runtime-main.js.map": "/boba-finder/static/js/runtime-main.18eed34d.js.map",
     "static/css/2.563af9af.chunk.css": "/boba-finder/static/css/2.563af9af.chunk.css",
     "static/js/2.a4995d09.chunk.js": "/boba-finder/static/js/2.a4995d09.chunk.js",
     "static/js/2.a4995d09.chunk.js.map": "/boba-finder/static/js/2.a4995d09.chunk.js.map",
     "index.html": "/boba-finder/index.html",
-    "precache-manifest.bab8f8f9f7d26cdb4cfb407d1ee1f386.js": "/boba-finder/precache-manifest.bab8f8f9f7d26cdb4cfb407d1ee1f386.js",
+    "precache-manifest.c51869af7b1bb000f7db18011aa2c19d.js": "/boba-finder/precache-manifest.c51869af7b1bb000f7db18011aa2c19d.js",
     "service-worker.js": "/boba-finder/service-worker.js",
     "static/css/2.563af9af.chunk.css.map": "/boba-finder/static/css/2.563af9af.chunk.css.map",
     "static/css/main.fc90685c.chunk.css.map": "/boba-finder/static/css/main.fc90685c.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.563af9af.chunk.css",
     "static/js/2.a4995d09.chunk.js",
     "static/css/main.fc90685c.chunk.css",
-    "static/js/main.7aeb01a9.chunk.js"
+    "static/js/main.928f240c.chunk.js"
   ]
 }
