@@ -17,7 +17,6 @@ class PlaceCard extends PureComponent {
 		this.distance = place.distance;
 		this.duration = place.duration;
 		this.navigate = props.navigate;
-		console.log(props.place);
 	}
 
 	render() {
