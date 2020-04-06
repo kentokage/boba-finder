@@ -1,4 +1,5 @@
 @import "./theme";
+@import "./containers/Auth.scss";
 
 /* .App {
   text-align: center;
@@ -70,6 +71,7 @@
 	&:hover {
 		background-color: $hover;
 	}
+
 	.header {
 		font-size: 1.4rem;
 		text-align: center;
@@ -151,8 +153,7 @@
 		padding: 0.5rem 0rem;
 	}
 
-	button {
-	}
+	button {}
 }
 
 .MapContainer {

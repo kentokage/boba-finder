@@ -181,7 +181,7 @@ class MapContainer extends React.PureComponent {
 				"points_of_interest",
 				"establishment"
 			],
-			query: "boba, bubble, tea, milk, drinks, pearls",
+			query: "boba, bubble, milk, tea, 波霸, 奶茶",
 			rankBy: mapsApi.places.RankBy.DISTANCE
 		};
 

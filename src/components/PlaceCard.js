@@ -21,9 +21,6 @@ class PlaceCard extends PureComponent {
 
 	render() {
 		const separator = <span>&nbsp;·&nbsp;</span>;
-		const ratingStyle = {
-			backgroundColor: this.computeHeaderBgColor(this.rating)
-		};
 		return (
 			<div
 				className="PlaceCard"

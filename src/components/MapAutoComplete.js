@@ -50,7 +50,7 @@ class MapAutoComplete extends PureComponent {
 	};
 
 	onSelect = value => {
-		const { mapsApi, map } = this.state;
+		const { map } = this.state;
 		this.state.geoCoderService.geocode({ address: value }, response => {
 			const { location } = response[0].geometry;
 			var lat = location.lat();

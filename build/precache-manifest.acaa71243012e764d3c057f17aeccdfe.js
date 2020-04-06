@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "00379005b8b625f0b5c87f538181cafb",
+    "revision": "38709ce9d3c12d975060b3c7a2305749",
     "url": "/boba-finder/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/boba-finder/static/css/2.563af9af.chunk.css"
   },
   {
-    "revision": "996095a1c159369a7094",
-    "url": "/boba-finder/static/css/main.fc90685c.chunk.css"
+    "revision": "ad7b79765613e5858432",
+    "url": "/boba-finder/static/css/main.7fca7c9f.chunk.css"
   },
   {
     "revision": "6919282f0d3a15c1f093",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/boba-finder/static/js/2.a4995d09.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "996095a1c159369a7094",
+    "revision": "ad7b79765613e5858432",
     "url": "/boba-finder/static/js/main.928f240c.chunk.js"
   },
   {

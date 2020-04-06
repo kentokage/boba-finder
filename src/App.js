@@ -1,5 +1,7 @@
 import React from "react";
 import MapContainer from "./containers/MapContainer";
+import Auth from "./containers/Auth";
+import { Switch, Route } from "react-router-dom";
 
 class App extends React.PureComponent {
 	constructor(props) {
@@ -9,7 +11,14 @@ class App extends React.PureComponent {
 	render() {
 		return (
 			<div className="App">
-				<MapContainer pos={this.state.pos} />
+				<Switch>
+					<Route exact path="/">
+						<MapContainer pos={this.state.pos} />
+					</Route>
+					<Route exact path="/auth">
+						<Auth />
+					</Route>
+				</Switch>
 			</div>
 		);
 	}
