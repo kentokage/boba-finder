@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/boba-finder/precache-manifest.e865019f041a5d023506c6fc5257562e.js"
+  "/boba-finder/precache-manifest.e4e43ab2d916d00841e1e54f26101c95.js"
 );
 
 self.addEventListener('message', (event) => {
