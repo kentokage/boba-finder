@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/boba-finder/static/css/main.208402a9.chunk.css",
-    "main.js": "/boba-finder/static/js/main.2e5f1a32.chunk.js",
-    "main.js.map": "/boba-finder/static/js/main.2e5f1a32.chunk.js.map",
-    "runtime-main.js": "/boba-finder/static/js/runtime-main.6406d5e6.js",
-    "runtime-main.js.map": "/boba-finder/static/js/runtime-main.6406d5e6.js.map",
-    "static/css/2.d788185a.chunk.css": "/boba-finder/static/css/2.d788185a.chunk.css",
-    "static/js/2.e7e58df7.chunk.js": "/boba-finder/static/js/2.e7e58df7.chunk.js",
-    "static/js/2.e7e58df7.chunk.js.map": "/boba-finder/static/js/2.e7e58df7.chunk.js.map",
+    "main.css": "/boba-finder/static/css/main.1fbbe0c6.chunk.css",
+    "main.js": "/boba-finder/static/js/main.38d247ab.chunk.js",
+    "main.js.map": "/boba-finder/static/js/main.38d247ab.chunk.js.map",
+    "runtime-main.js": "/boba-finder/static/js/runtime-main.92abbc1f.js",
+    "runtime-main.js.map": "/boba-finder/static/js/runtime-main.92abbc1f.js.map",
+    "static/css/2.04ff9426.chunk.css": "/boba-finder/static/css/2.04ff9426.chunk.css",
+    "static/js/2.14200a18.chunk.js": "/boba-finder/static/js/2.14200a18.chunk.js",
+    "static/js/2.14200a18.chunk.js.map": "/boba-finder/static/js/2.14200a18.chunk.js.map",
     "index.html": "/boba-finder/index.html",
-    "precache-manifest.e4e43ab2d916d00841e1e54f26101c95.js": "/boba-finder/precache-manifest.e4e43ab2d916d00841e1e54f26101c95.js",
+    "precache-manifest.78b5af6b6ef17c060375849c48f4ba5b.js": "/boba-finder/precache-manifest.78b5af6b6ef17c060375849c48f4ba5b.js",
     "service-worker.js": "/boba-finder/service-worker.js",
-    "static/css/2.d788185a.chunk.css.map": "/boba-finder/static/css/2.d788185a.chunk.css.map",
-    "static/css/main.208402a9.chunk.css.map": "/boba-finder/static/css/main.208402a9.chunk.css.map",
-    "static/js/2.e7e58df7.chunk.js.LICENSE.txt": "/boba-finder/static/js/2.e7e58df7.chunk.js.LICENSE.txt"
+    "static/css/2.04ff9426.chunk.css.map": "/boba-finder/static/css/2.04ff9426.chunk.css.map",
+    "static/css/main.1fbbe0c6.chunk.css.map": "/boba-finder/static/css/main.1fbbe0c6.chunk.css.map",
+    "static/js/2.14200a18.chunk.js.LICENSE.txt": "/boba-finder/static/js/2.14200a18.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6406d5e6.js",
-    "static/css/2.d788185a.chunk.css",
-    "static/js/2.e7e58df7.chunk.js",
-    "static/css/main.208402a9.chunk.css",
-    "static/js/main.2e5f1a32.chunk.js"
+    "static/js/runtime-main.92abbc1f.js",
+    "static/css/2.04ff9426.chunk.css",
+    "static/js/2.14200a18.chunk.js",
+    "static/css/main.1fbbe0c6.chunk.css",
+    "static/js/main.38d247ab.chunk.js"
   ]
 }
