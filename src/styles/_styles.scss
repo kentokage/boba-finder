@@ -1,0 +1,9 @@
+@mixin pages {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-width: 350px;
+}

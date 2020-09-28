@@ -1,5 +1,5 @@
-@import "./App.scss";
-@import "./theme.scss";
+@import "./styles/theme";
+@import "./styles/styles";
 
 body {
   margin: 0;
@@ -24,3 +24,7 @@ html {
   overflow: -moz-scrollbars-none;
   -ms-overflow-style: none;
 }
+
+@import "./App.scss";
+@import "./pages/AuthPage";
+@import "./pages/TestPage";

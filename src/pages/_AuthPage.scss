@@ -1,0 +1,11 @@
+.authPage {
+	@include pages;
+
+	.error {
+		color: red;
+	}
+
+	&>* {
+		align-self: stretch;
+	}
+}
